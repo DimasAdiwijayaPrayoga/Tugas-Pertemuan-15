@@ -5,7 +5,7 @@ def encrypt(teks, kunci):
     ciphertext += chr(ord(teks[i]) ^ ord(kunci[i % len(kunci)]))
   return ciphertext
 
-# Trial enkripsi dan deskripsi
+# Trial enkripsi
 teks = "Saya harus lulus tepat waktu dan menjadi sarjana"
 kunci = "12345"
 
